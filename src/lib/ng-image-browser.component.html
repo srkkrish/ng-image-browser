@@ -1,0 +1,5 @@
+<div class="ng_img_browser">
+<img class="ng__image" src="{{imagesrc}}" (click)="fileInput.click()"/>
+<i class="fa fa-camera ng__cam_icon" aria-hidden="true" (click)="fileInput.click()"></i>
+<input #fileInput class="ng__input-file" type="file" accept="image/*" (change)="HandleChange($event)"/>
+</div>

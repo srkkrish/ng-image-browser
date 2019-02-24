@@ -1,0 +1,45 @@
+
+.ng__image{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    box-shadow: 1px 2px 3px #80808052, 1px 2px 3px #80808057;
+    border: 1px solid #808080a1;
+
+    &:hover{
+        filter: blur(2px);
+    }
+
+    &:hover + .ng__cam_icon{
+        display: block;
+    }
+}
+
+.ng_img_browser{
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+
+.ng__input-file{
+    display: none;
+}
+
+.ng__cam_icon{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 1px 2px 15px black;
+    font-size: 1.4rem;
+    cursor: pointer;
+
+    &:hover{
+        display: block;
+        // & + .ng__image{
+        //     filter: blur(2px);
+        // }
+    }
+}

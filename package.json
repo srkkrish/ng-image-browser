@@ -1,0 +1,27 @@
+{
+  "name": "ng-image-browser",
+  "version": "1.0.4",
+  "peerDependencies": {
+    "@angular/common": "^7.0.0 || >6.0.0",
+    "@angular/core": "^7.0.0 || >6.0.0"
+  },
+  "keywords": [
+    "Angular 6+ image browser",
+    "image browser",
+    "ng image browser",
+    "image browser component",
+    "angular image browser",
+    "image viewer"
+  ],
+  "description": "Angular 6+ image browser",
+  "license": "MIT",
+  "author": "srkkrish",
+  "person": {
+    "name": "Sivaramakrishnan",
+    "email": "sivaramakrishnan535@gmail.com"
+  },
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/srkkrish/ng-image-browser"
+  }
+}
